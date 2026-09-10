@@ -119,7 +119,29 @@
   <footer class="text-center py-3" style="background-color: #08491f; color: #d4d4d4;">
     &copy; Anunciacion &mdash; DLS-CSB
   </footer>
-
+<!-- Contact form (Bootstrap form elements) -->
+  <section class="container py-5">
+    <h1>Contact Me</h1>
+    <p>You can leave a message below.</p>
+ 
+    <form>
+      <div class="mb-3">
+        <label for="contactName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="contactName" style="background-color: #1a1a1a; color: #ffffff; border: 1px solid #d4d4d4;">
+      </div>
+      <div class="mb-3">
+        <label for="contactEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="contactEmail" style="background-color: #1a1a1a; color: #ffffff; border: 1px solid #d4d4d4;">
+      </div>
+      <div class="mb-3">
+        <label for="contactMsg" class="form-label">Msg</label>
+        <textarea class="form-control" id="contactMsg" rows="5" style="background-color: #1a1a1a; color: #ffffff; border: 1px solid #d4d4d4;"></textarea>
+      </div>
+      <button type="submit" class="btn btn-warning mb-2">Send</button>
+      <br>
+      <a href="#" target="_blank" class="btn btn-primary">LinkedIn</a>
+    </form>
+  </section>
   <!-- Bootstrap JS bundle (needed for the navbar toggler on mobile) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
